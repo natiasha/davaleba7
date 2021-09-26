@@ -1,0 +1,9 @@
+body{
+    background-color: beige;
+}
+.autob{
+    align-items: flex-start;
+}
+.autoc{
+    align-items: flex-end;
+}
