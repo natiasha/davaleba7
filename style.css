@@ -1,17 +1,17 @@
 .animation1{
     position: absolute;
     width: 120px;
-}
-@keyframes mymove{
-   from{
-    top:100px;
-    left:0px;
     animation-name: mymove;
     animation-duration: 15s;
     animation-delay: 3s;
     animation-timing-function: linear;
     animation-duration: alternate;
     animation-iteration-count: 1;
+}
+@keyframes myMove{
+   from{
+    top:100px;
+    left:0px;
 }
 to {
     top:20px;
@@ -20,5 +20,22 @@ to {
 }
 
 .animation2{
-    align-items: flex-end;
-}
+    position: absolute;
+    width: 120px;
+    animation-name: myMove1;
+    animation-duration: 15s;
+    animation-delay: 3s;
+    animation-timing-function: linear;
+    animation-duration: alternate;
+    animation-iteration-count: 1;
+}  
+@keyframes myMove1{
+    from{
+     top:100px;
+     right:0px;
+ }
+ to {
+     top:20px;
+     left: 0px;
+ }
+ }
