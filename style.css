@@ -5,25 +5,34 @@
     animation-duration: 20s;
     animation-delay: 2s;
     animation-timing-function: linear;
-    animation-iteration-count: 4;
+    animation-iteration-count: 1;
 }
 @keyframes myMove{
    0%{
-    top:10px;
+    top:100px;
     right:0px;
 }
-50% {
-  top: 10px;
-  right: 250px;
+20% {
+  top: 100px;
+  right: 150px;
 }
-80% {
-   top: 20px;
-   right: 500px;
+40% {
+   top: 100px;
+   right: 250px;
 }
-100%{
-  top: 30px;
-  right: 800px;
+60%{
+  top: 100px;
+  right: 350px;
 }
+80%{
+  top: 100px;
+  right: 450px;
+}
+  100% {
+  top: 100px;
+  right: 650px;
+}
+
 }
 
 .animation2{
@@ -33,23 +42,34 @@
     animation-duration: 20s;
     animation-delay: 2s;
     animation-timing-function: linear;
-    animation-iteration-count: 4;
+    animation-iteration-count: 1;
 }  
 @keyframes myMove1{
    0%{
-    top:10px;
-    left:0px;
+    top:100px;
+    left:-10px;
   }
-  50% {
-    top: 20px;
-    left: 500px;
+  20% {
+    top: 100px;
+    left: 150px;
+  }
+  40% {
+    top: 100px;
+    left: 250px;
+  }
+  60% {
+    top: 100px;
+    left: 350px;
   }
   80% {
-    top: 30px;
-    left: 800px;
+    top: 100px;
+    left: 450px;
   }
-  100%80% {
-    top: 40px;
-    left: 1000px;
+  100% {
+    top: 100px;
+    left: 650px;
   }
   } 
+  body{
+    background-color: aqua;
+  }
